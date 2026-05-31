@@ -83,7 +83,7 @@ VALIDATE $? "Uzip $app_name code"
 
 
 system_setup(){
-cp $SCRIPT_DIR/$app_name.service /etc/systemd/system/$app_name.service
+cp $Script_DIR/$app_name.service /etc/systemd/system/$app_name.service
 VALIDATE $? "Created systemctl service"
 
 systemctl daemon-reload
