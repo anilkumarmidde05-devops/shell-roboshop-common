@@ -8,4 +8,5 @@ app_setup
 nodejs_setup
 system_setup
 
+app_restart
 print_total_time
