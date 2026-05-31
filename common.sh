@@ -11,6 +11,8 @@ N="\e[0m"
 
 START_TIME=$(date +%s)
 
+mkdir -p $LOGS_FOLDER
+
 echo "$(date "+%Y-%m-%d %H:%M:%S")  | Script Started executing at: $(date)"
 
 
@@ -22,7 +24,6 @@ fi
 
 }
 
-mkdir -p $LOGS_FOLDER
 
 VALIDATE(){
 if [ $1 -ne 0 ]; then
